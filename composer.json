@@ -4,7 +4,8 @@
   "description": "The QuickUp is a base framework with user interface for starting a simple project or a test task.",
   "keywords": [
     "framework",
-    "quickup"
+    "quickup",
+    "ui"
   ],
   "license": "MIT",
   "authors": [

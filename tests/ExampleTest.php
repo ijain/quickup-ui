@@ -4,7 +4,6 @@ declare(strict_types=1);
 namespace Tests;
 
 use PHPUnit\Framework\TestCase;
-use PDO;
 
 class ExampleTest extends TestCase
 {
