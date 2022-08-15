@@ -7,9 +7,6 @@ require_once 'vendor/autoload.php';
 
 use App\Entity\DbConnection;
 use App\Model\DataModel;
-
-$conn = DbConnection::getInstance();
-$db = $conn->getConnection();
 ?>
 
 <!DOCTYPE html>
@@ -78,6 +75,9 @@ $db = $conn->getConnection();
 
         <p>
             <?php
+            $conn = DbConnection::getInstance();
+            $db = $conn->getConnection();
+
             $dataModel = new DataModel($db);
             $data = $dataModel->get(); //select * from test
             //var_dump($data);

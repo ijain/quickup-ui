@@ -1,7 +1,7 @@
 {
   "name": "quickup-ui/1.0",
   "type": "project",
-  "description": "The QuickUp base framework for starting a simple project or test task.",
+  "description": "The QuickUp is a base framework with user interface for starting a simple project or a test task.",
   "keywords": [
     "framework",
     "quickup"
@@ -16,7 +16,6 @@
   ],
   "autoload": {
     "psr-4": {
-      "App\\": "app",
       "App\\Entity\\": "app/entity",
       "App\\Model\\": "app/model"
     },
@@ -24,8 +23,6 @@
       "app"
     ],
     "files": [
-      "app/entity/DbConnection.php",
-      "app/model/DataModel.php",
       "app/config/main.php"
     ]
   },
